@@ -6,6 +6,14 @@
     <!-- displays site properly based on user's device -->
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <!-- custom CSS link -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!-- GOOGLE font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
 
     <title>Frontend Mentor | Interactive rating component</title>
 
@@ -22,41 +30,24 @@
   </head>
   <body>
     <main>
-      <div class="container">
+      <div class="container overpass-font-400">
         <div id="rating-image-container">
-          <img src="#" alt="star-icon" />
+          <img src="images/icon-star.svg" alt="star-icon" />
         </div>
-        <h1>How did we do?</h1>
+        <h1 id="question">How did we do?</h1>
         <p>
           Please let us know how we did with your support request. All feedback is appreciated to help us improve our
           offering!
         </p>
         <div id="rating-container">
-          <button class="rating-button">1</button>
-          <button class="rating-button">2</button>
-          <button class="rating-button">3</button>
-          <button class="rating-button">4</button>
-          <button class="rating-button">5</button>
+          <button class="rating-button overpass-font-700">1</button>
+          <button class="rating-button overpass-font-700">2</button>
+          <button class="rating-button overpass-font-700">3</button>
+          <button class="rating-button overpass-font-700">4</button>
+          <button class="rating-button overpass-font-700">5</button>
         </div>
         <div id="submit-button-container">
-          <button id="submit-button">Submit</button>
-        </div>
-      </div>
-      <div class="container" style="visibility: hidden">
-        <div id="thank-you-image-container">
-          <img src="#" alt="thank-you-image" />
-          <p>
-            You selected
-            <!-- Add rating here -->
-            out of 5
-          </p>
-        </div>
-        <div id="message-container">
-          <h1>Thank you!</h1>
-          <p>
-            We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
-            touch!
-          </p>
+          <a id="submit-button" class="overpass-font-700" href="./pages/submission_page_mobile.html">Submit</a>
         </div>
       </div>
     </main>
