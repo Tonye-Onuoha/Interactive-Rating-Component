@@ -30,7 +30,7 @@
   </head>
   <body>
     <main>
-      <div class="container overpass-font-400">
+      <div id="container" class="overpass-font-400">
         <div id="rating-image-container">
           <img src="images/icon-star.svg" alt="star-icon" />
         </div>
@@ -47,7 +47,26 @@
           <button class="rating-button overpass-font-700">5</button>
         </div>
         <div id="submit-button-container">
-          <a id="submit-button" class="overpass-font-700" href="./pages/submission_page_mobile.html">Submit</a>
+          <button id="submit-button" class="overpass-font-700">Submit</button>
+        </div>
+      </div>
+      <div id="submission-container" class="overpass-font-400" style="display: none">
+        <div id="submission-image-container">
+          <div>
+            <img src="./images/illustration-thank-you.svg" alt="thank-you-image" />
+          </div>
+          <p>
+            You selected
+            <span id="rating"></span>
+            out of 5
+          </p>
+        </div>
+        <div id="message-container">
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+            touch!
+          </p>
         </div>
       </div>
     </main>
@@ -59,5 +78,6 @@
         >.
       </div>
     </footer>
+    <script src="js/rating.js"></script>
   </body>
 </html>
