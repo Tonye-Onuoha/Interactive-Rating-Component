@@ -6,13 +6,13 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+-   [Overview](#overview)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [Useful resources](#useful-resources)
+-   [Author](#author)
 
 ## Overview
 
@@ -25,7 +25,7 @@ component" web app.
 
 ### Links
 
-- Live Site URL: [Vercel]()
+-   Live Site URL: [Vercel](https://interactive-rating-component-ebon-phi.vercel.app)
 
 ## My process
 
@@ -36,16 +36,16 @@ was completed, I proceeded to add the logic and interactivity of the app using J
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox layout model
-- Media queries
-- JavaScript programming language
+-   Semantic HTML5 markup
+-   CSS custom properties
+-   Flexbox layout model
+-   Media queries
+-   JavaScript programming language
 
 ### Useful resources
 
-- [W3Schools](https://www.w3schools.com/)
+-   [W3Schools](https://www.w3schools.com/)
 
 ## Author
 
-- Email Address - [tonyeonuoha@gmail.com](tonyeonuoha@gmail.com)
+-   Email Address - [tonyeonuoha@gmail.com](tonyeonuoha@gmail.com)
